@@ -8,7 +8,7 @@ const Clipboard = () => {
     const router = useRouter();
     const handleCopyClick = async () => {
         try {
-            const link = `http://localhost:3000/addfeedback/${localStorage.getItem('uid')}`;
+            const link = `https://opinionstream.vercel.app/addfeedback/${localStorage.getItem('uid')}`;
             await navigator.clipboard.writeText(link);
             setCopySuccess('Link copied to your clipboard!');
             setTimeout(() => {
