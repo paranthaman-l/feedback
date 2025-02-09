@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center h-20 fixed w-full bg-[#0a0a0a]'>
       <div className="mx-10">
-        Sujay
+        Logo
       </div>
 
       {user ? <div className="mx-10 flex justify-center items-center my-2">
